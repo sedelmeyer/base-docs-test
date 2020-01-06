@@ -11,6 +11,7 @@ flake8 = "*"
 [packages]
 basedata = {editable = true,path = "."}
 e1839a8 = {editable = true,path = "."}
+sphinx = "*"
 
 [requires]
 python_version = "3.6"
