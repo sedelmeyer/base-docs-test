@@ -1,0 +1,756 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>basedata.ops.tests package &#8212; basedata v0.2.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="canonical" href="https://sedelmeyer.github.io/basedata/basedata.ops.tests.html" />
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="My first article" href="Articles/article1.html" />
+    <link rel="prev" title="basedata.ops package" href="basedata.ops.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+              <div class="related top">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="basedata.ops.html" title="Previous document">basedata.ops package</a>
+        </li>
+        <li>
+          <a href="Articles/article1.html" title="Next document">My first article</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="basedata-ops-tests-package">
+<h1>basedata.ops.tests package<a class="headerlink" href="#basedata-ops-tests-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-basedata.ops.tests.test_base">
+<span id="basedata-ops-tests-test-base-module"></span><h2>basedata.ops.tests.test_base module<a class="headerlink" href="#module-basedata.ops.tests.test_base" title="Permalink to this headline">¶</a></h2>
+<p>Unit-tests for basedata.ops.base submodule</p>
+<dl class="class">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.test_base.</code><code class="sig-name descname">BaseDataClassTests</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>Tests to ensure class data.BaseDataClass functions properly</p>
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_csv">
+<code class="sig-name descname">test_from_file_csv</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure csv is read and stored to BaseDataClass class</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_fail">
+<code class="sig-name descname">test_from_file_fail</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_fail" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure from_file fails elegantly with wrong filetype read</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_inputdf_persists">
+<code class="sig-name descname">test_from_file_inputdf_persists</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_inputdf_persists" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure input_df persist only when specified</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_xls">
+<code class="sig-name descname">test_from_file_xls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_xls" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure xls is read and stored to BaseDataClass class</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_xlsx">
+<code class="sig-name descname">test_from_file_xlsx</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_file_xlsx" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure xlsx is read and stored to BaseDataClass class</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_object_class">
+<code class="sig-name descname">test_from_object_class</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_object_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure class.df object is read and stored to BaseDataClass class</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_object_df">
+<code class="sig-name descname">test_from_object_df</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_object_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure dataframe object is read and stored to BaseDataClass class</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_from_object_fail">
+<code class="sig-name descname">test_from_object_fail</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_from_object_fail" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure from_object fails elegantly with invalid object</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.BaseDataClassTests.test_to_file">
+<code class="sig-name descname">test_to_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.BaseDataClassTests.test_to_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure to_file saves self.df to disk</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="basedata.ops.tests.test_base.MiscFunctionsTest">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.test_base.</code><code class="sig-name descname">MiscFunctionsTest</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.MiscFunctionsTest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>unittests for misc functions located in data/ids submodule</p>
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.MiscFunctionsTest.test_inplace_return_series_inplace">
+<code class="sig-name descname">test_inplace_return_series_inplace</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.MiscFunctionsTest.test_inplace_return_series_inplace" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure inplace_return_series makes inplace changes</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.MiscFunctionsTest.test_inplace_return_series_inplace_target_col">
+<code class="sig-name descname">test_inplace_return_series_inplace_target_col</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.MiscFunctionsTest.test_inplace_return_series_inplace_target_col" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure inplace_return_series makes inplace changes to target_col</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.MiscFunctionsTest.test_inplace_return_series_return">
+<code class="sig-name descname">test_inplace_return_series_return</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.MiscFunctionsTest.test_inplace_return_series_return" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure inplace_return_series returns series</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.MiscFunctionsTest.test_regex_replace_value">
+<code class="sig-name descname">test_regex_replace_value</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.MiscFunctionsTest.test_regex_replace_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensures sub_value_regex returns accurate values</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_base.MiscFunctionsTest.test_regex_sub_value">
+<code class="sig-name descname">test_regex_sub_value</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_base.MiscFunctionsTest.test_regex_sub_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensures sub_value_regex returns accurate values</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-basedata.ops.tests.test_cols">
+<span id="basedata-ops-tests-test-cols-module"></span><h2>basedata.ops.tests.test_cols module<a class="headerlink" href="#module-basedata.ops.tests.test_cols" title="Permalink to this headline">¶</a></h2>
+<p>Unittests for basedata.ops.cols submodule</p>
+<dl class="class">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.test_cols.</code><code class="sig-name descname">ColumnConversionsMixinTests</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>unittests for data.cols ColumnConversionsMixin class</p>
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.create_ColumnConversions_class">
+<code class="sig-name descname">create_ColumnConversions_class</code><span class="sig-paren">(</span><em class="sig-param">df</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.create_ColumnConversions_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns ColumnConversionsMixin instance for reuse in TestCase</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_add_column">
+<code class="sig-name descname">test_add_column</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_add_column" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure add_column appends new column to self.df</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_lambda">
+<code class="sig-name descname">test_apply_function_lambda</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_lambda" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure apply_function works with lambda function</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_multicol">
+<code class="sig-name descname">test_apply_function_multicol</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_multicol" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure apply_function works when applied to multiple columns</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_raises_value_error">
+<code class="sig-name descname">test_apply_function_raises_value_error</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_raises_value_error" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure apply_function raises error for inplace no target_column</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_saves_target_column">
+<code class="sig-name descname">test_apply_function_saves_target_column</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_apply_function_saves_target_column" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure apply_function saves inplace to target_column</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_check_datetime">
+<code class="sig-name descname">test_check_datetime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_check_datetime" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure check_datetime returns value counts for all errors</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_check_nonnumeric">
+<code class="sig-name descname">test_check_nonnumeric</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_check_nonnumeric" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure check_numeric returns value counts for all errors</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_column_names_inplace">
+<code class="sig-name descname">test_map_column_names_inplace</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_column_names_inplace" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure map_column_names accurately maps names inplace</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_column_names_return">
+<code class="sig-name descname">test_map_column_names_return</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_column_names_return" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure map_column_names returns df and not inplace when False</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_values_exhaustive">
+<code class="sig-name descname">test_map_values_exhaustive</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_values_exhaustive" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure map_values accurately maps values</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_values_not_exhaustive">
+<code class="sig-name descname">test_map_values_not_exhaustive</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_map_values_not_exhaustive" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure map_values accurately maps values</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_report_values">
+<code class="sig-name descname">test_report_values</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_report_values" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure report_values reports all values and returns series</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_substitute_chars">
+<code class="sig-name descname">test_substitute_chars</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_substitute_chars" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure substitute_chars strips non-match characters from column</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_datetime_coerce">
+<code class="sig-name descname">test_to_datetime_coerce</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_datetime_coerce" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure to_datetime returns only numerics with coerce default</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_datetime_coerce_false">
+<code class="sig-name descname">test_to_datetime_coerce_false</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_datetime_coerce_false" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure to_datetime returns non-numeric values with coerce=False</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_numeric_coerce">
+<code class="sig-name descname">test_to_numeric_coerce</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_numeric_coerce" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure to_numeric returns only numerics with coerce default</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_numeric_coerce_false">
+<code class="sig-name descname">test_to_numeric_coerce_false</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_cols.ColumnConversionsMixinTests.test_to_numeric_coerce_false" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure to_numeric returns non-numeric values with coerce=False</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-basedata.ops.tests.test_databuild">
+<span id="basedata-ops-tests-test-databuild-module"></span><h2>basedata.ops.tests.test_databuild module<a class="headerlink" href="#module-basedata.ops.tests.test_databuild" title="Permalink to this headline">¶</a></h2>
+<p>This test submodule contains the functions and accompanying unit-tests used to
+build the test datasets that are reused among the various basedata.ops modules’
+unit-tests</p>
+<dl class="class">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">DatabuildTests</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>unittests for test databuild functions</p>
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_generate_random_datetime_object">
+<code class="sig-name descname">test_generate_random_datetime_object</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_generate_random_datetime_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensures datetime object is generated</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_generate_random_datetime_str">
+<code class="sig-name descname">test_generate_random_datetime_str</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_generate_random_datetime_str" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensures datetime string is generated</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_generate_random_int">
+<code class="sig-name descname">test_generate_random_int</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_generate_random_int" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensures specified random id generated</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_dataframe">
+<code class="sig-name descname">test_make_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure accurate df returned</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_datetime_dict">
+<code class="sig-name descname">test_make_datetime_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_datetime_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure accurate dict returned</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirt_dict">
+<code class="sig-name descname">test_make_dirt_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirt_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure accurate dict returned</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirty_datetime_dataframe">
+<code class="sig-name descname">test_make_dirty_datetime_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirty_datetime_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure make_dirty_ids returns accurate dataframe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirty_ids_dataframe">
+<code class="sig-name descname">test_make_dirty_ids_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirty_ids_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure make_dirty_ids returns accurate dataframe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirty_numeric_dataframe">
+<code class="sig-name descname">test_make_dirty_numeric_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_dirty_numeric_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure make_dirty_ids returns accurate dataframe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_id_dict">
+<code class="sig-name descname">test_make_id_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_id_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure accurate dict returned</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_simple_dataframe">
+<code class="sig-name descname">test_make_simple_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_simple_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure make_simple_dataframe returns dataframe type</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_make_twocol_dataframe">
+<code class="sig-name descname">test_make_twocol_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_make_twocol_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure make_twocol_datafram returns two column dataframe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_merge_dicts">
+<code class="sig-name descname">test_merge_dicts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_merge_dicts" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure merged dict returned</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_save_dataframe_csv">
+<code class="sig-name descname">test_save_dataframe_csv</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_save_dataframe_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure csv is saved</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_save_dataframe_excel">
+<code class="sig-name descname">test_save_dataframe_excel</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_save_dataframe_excel" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure excel is saved</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_save_dataframe_excel_xml">
+<code class="sig-name descname">test_save_dataframe_excel_xml</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_save_dataframe_excel_xml" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure excel xml format is saved</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_databuild.DatabuildTests.test_save_simple_dataframe">
+<code class="sig-name descname">test_save_simple_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.DatabuildTests.test_save_simple_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure save_simple_dataframe returns fp, df, and path exists</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.generate_random_datetime">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">generate_random_datetime</code><span class="sig-paren">(</span><em class="sig-param">start=datetime.datetime(2007</em>, <em class="sig-param">1</em>, <em class="sig-param">1</em>, <em class="sig-param">0</em>, <em class="sig-param">0)</em>, <em class="sig-param">end=datetime.datetime(2017</em>, <em class="sig-param">1</em>, <em class="sig-param">1</em>, <em class="sig-param">0</em>, <em class="sig-param">0)</em>, <em class="sig-param">string=True</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.generate_random_datetime" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns random datetime between two datetime objects</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.generate_random_int">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">generate_random_int</code><span class="sig-paren">(</span><em class="sig-param">int_len=8</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.generate_random_int" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns a random integer (i.e. ID number) of given length</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_dataframe</code><span class="sig-paren">(</span><em class="sig-param">dicts_list</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>builds test dataframe using list of dicts</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_datetime_dict">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_datetime_dict</code><span class="sig-paren">(</span><em class="sig-param">n=5</em>, <em class="sig-param">keyname='datetime'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_datetime_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>generates dict containing randomly generated datetimes</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_dirt_dict">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_dirt_dict</code><span class="sig-paren">(</span><em class="sig-param">clean_dict</em>, <em class="sig-param">keyname</em>, <em class="sig-param">dirt_list</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_dirt_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>generates updated dict with dirt values appended</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_dirty_datetime_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_dirty_datetime_dataframe</code><span class="sig-paren">(</span><em class="sig-param">keycol='test'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_dirty_datetime_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns df with dirty IDs column for reuse in unittests</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_dirty_ids_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_dirty_ids_dataframe</code><span class="sig-paren">(</span><em class="sig-param">keycol='test'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_dirty_ids_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns df with dirty IDs column for reuse in unittests</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_dirty_numeric_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_dirty_numeric_dataframe</code><span class="sig-paren">(</span><em class="sig-param">keycol='test'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_dirty_numeric_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns df with dirty IDs column for reuse in unittests</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_id_dict">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_id_dict</code><span class="sig-paren">(</span><em class="sig-param">n=5</em>, <em class="sig-param">int_len=8</em>, <em class="sig-param">keyname='id'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_id_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>generates dict containing randomly generated IDs</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_simple_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_simple_dataframe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_simple_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>builds and returns simple dataframe for TestCase reuse</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.make_twocol_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">make_twocol_dataframe</code><span class="sig-paren">(</span><em class="sig-param">colname_1='col1'</em>, <em class="sig-param">colname_2='col2'</em>, <em class="sig-param">n=5</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.make_twocol_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>builds two column dataframe of random digits for TestCase reuse</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.merge_dicts">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">merge_dicts</code><span class="sig-paren">(</span><em class="sig-param">dicts_list</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.merge_dicts" title="Permalink to this definition">¶</a></dt>
+<dd><p>generates a single dict from an arbitrary number of separate dicts</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.save_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">save_dataframe</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em>, <em class="sig-param">filename</em>, <em class="sig-param">**to_kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.save_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>saves df to file, type is either csv or xlsx based on extension</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="basedata.ops.tests.test_databuild.save_simple_dataframe">
+<code class="sig-prename descclassname">basedata.ops.tests.test_databuild.</code><code class="sig-name descname">save_simple_dataframe</code><span class="sig-paren">(</span><em class="sig-param">tmp_dir</em>, <em class="sig-param">filename</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_databuild.save_simple_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>saves simple dataframe for TestCase reuse</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-basedata.ops.tests.test_ids">
+<span id="basedata-ops-tests-test-ids-module"></span><h2>basedata.ops.tests.test_ids module<a class="headerlink" href="#module-basedata.ops.tests.test_ids" title="Permalink to this headline">¶</a></h2>
+<p>Unittests for basedata.ops.ids submodule</p>
+<dl class="class">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.test_ids.</code><code class="sig-name descname">DedupeMixinTests</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>unittests for DedupeMixin class methods</p>
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.create_Dedupe_class">
+<code class="sig-name descname">create_Dedupe_class</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.create_Dedupe_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns DedupeMixin instance for reuse in TestCase</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_check_dupes_hasattr">
+<code class="sig-name descname">test_check_dupes_hasattr</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_check_dupes_hasattr" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure accurate df saves to duperecords if attr does exist</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_check_dupes_not_hasattr">
+<code class="sig-name descname">test_check_dupes_not_hasattr</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_check_dupes_not_hasattr" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure accurate df saves to duperecords if attr does not exist</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_drop_dupes_drop">
+<code class="sig-name descname">test_drop_dupes_drop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_drop_dupes_drop" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure drop_dupes drops rows from self.df</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_drop_dupes_validate">
+<code class="sig-name descname">test_drop_dupes_validate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_drop_dupes_validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure drop_dupes raises exception when validate==True</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_flush_duperecords_del">
+<code class="sig-name descname">test_flush_duperecords_del</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_flush_duperecords_del" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure flush_duperecords deletes class attribute</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_flush_duperecords_pass">
+<code class="sig-name descname">test_flush_duperecords_pass</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_flush_duperecords_pass" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure flush_duperecords pass when class attribute doesn’t exist</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_report_dupes_returns">
+<code class="sig-name descname">test_report_dupes_returns</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_report_dupes_returns" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure report_dupes returns accurate df</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_report_dupes_to_file">
+<code class="sig-name descname">test_report_dupes_to_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_report_dupes_to_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure report_dupes saves .csv when to_file specified</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.DedupeMixinTests.test_report_dupes_to_file_index">
+<code class="sig-name descname">test_report_dupes_to_file_index</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.DedupeMixinTests.test_report_dupes_to_file_index" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure report_dupes saves .csv when to_file specified</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.test_ids.</code><code class="sig-name descname">ValidIDsMixinTests</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>unittests for ValidIDsMixin class methods</p>
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.create_ValidIDs_class">
+<code class="sig-name descname">create_ValidIDs_class</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.create_ValidIDs_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns DedupeMixin instance for reuse in TestCase</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_drop_blankID_rows">
+<code class="sig-name descname">test_drop_blankID_rows</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_drop_blankID_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure blankID rows are dropped from dataframe and index reset</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_remove_offlenIDs">
+<code class="sig-name descname">test_remove_offlenIDs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_remove_offlenIDs" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure offlenIDs replaced with np.nan values</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_remove_offlenIDs_return_series">
+<code class="sig-name descname">test_remove_offlenIDs_return_series</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_remove_offlenIDs_return_series" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure offlenIDs replaced with np.nan values</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_replace_blankIDs">
+<code class="sig-name descname">test_replace_blankIDs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_replace_blankIDs" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure blank ids are replaced with values from target column</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_replace_blankIDs_return_series">
+<code class="sig-name descname">test_replace_blankIDs_return_series</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_replace_blankIDs_return_series" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure blank ids are replaced with values from target column</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_report_offlenIDs">
+<code class="sig-name descname">test_report_offlenIDs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_report_offlenIDs" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure report_offlenIDs returns accurate value_counts series</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_strip_nonnumeric">
+<code class="sig-name descname">test_strip_nonnumeric</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_strip_nonnumeric" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure strip_nonnumeric strips nonnumeric characters from column</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="basedata.ops.tests.test_ids.ValidIDsMixinTests.test_strip_nonnumeric_returns_series">
+<code class="sig-name descname">test_strip_nonnumeric_returns_series</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.test_ids.ValidIDsMixinTests.test_strip_nonnumeric_returns_series" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure strip_nonnumeric returns series when specified</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-basedata.ops.tests.tests">
+<span id="basedata-ops-tests-tests-module"></span><h2>basedata.ops.tests.tests module<a class="headerlink" href="#module-basedata.ops.tests.tests" title="Permalink to this headline">¶</a></h2>
+<p>Unittests for base.data.ops submodule __init__.py code</p>
+<dl class="class">
+<dt id="basedata.ops.tests.tests.BaseDataOpsTests">
+<em class="property">class </em><code class="sig-prename descclassname">basedata.ops.tests.tests.</code><code class="sig-name descname">BaseDataOpsTests</code><span class="sig-paren">(</span><em class="sig-param">methodName='runTest'</em><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.tests.BaseDataOpsTests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">unittest.case.TestCase</span></code></p>
+<p>unittests for base.BaseDataOps class</p>
+<dl class="method">
+<dt id="basedata.ops.tests.tests.BaseDataOpsTests.test_BaseDataOps_invoke">
+<code class="sig-name descname">test_BaseDataOps_invoke</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#basedata.ops.tests.tests.BaseDataOpsTests.test_BaseDataOps_invoke" title="Permalink to this definition">¶</a></dt>
+<dd><p>ensure BaseDataOps.from_object invokes __init__ of parent class</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-basedata.ops.tests">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-basedata.ops.tests" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+              <div class="related bottom">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="basedata.ops.html" title="Previous document">basedata.ops package</a>
+        </li>
+        <li>
+          <a href="Articles/article1.html" title="Next document">My first article</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+<h1 class="logo"><a href="index.html">basedata</a></h1>
+
+
+
+<p class="blurb">This is a short description of the project</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=sedelmeyer&repo=basedata&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+    
+
+<p>
+<a class="badge" href="https://travis-ci.org/sedelmeyer/basedata">
+    <img
+        alt="https://secure.travis-ci.org/sedelmeyer/basedata.svg?branch=master"
+        src="https://secure.travis-ci.org/sedelmeyer/basedata.svg?branch=master"
+    />
+</a>
+</p>
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="math.html">Some sample math</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">basedata</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="basedata.html">basedata package</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Articles/article1.html">My first article</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">Some other stuff</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">basedata</a><ul>
+  <li><a href="basedata.html">basedata package</a><ul>
+  <li><a href="basedata.ops.html">basedata.ops package</a><ul>
+      <li>Previous: <a href="basedata.ops.html" title="previous chapter">basedata.ops package</a></li>
+      <li>Next: <a href="Articles/article1.html" title="next chapter">My first article</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, mike sedelmeyer.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/basedata.ops.tests.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/sedelmeyer/basedata" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>
