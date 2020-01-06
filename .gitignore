@@ -1,5 +1,8 @@
 *.py[cod]
 
+# built docs
+/docs/html/
+
 # data
 /data/
 
